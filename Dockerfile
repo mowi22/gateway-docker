@@ -1,4 +1,4 @@
-FROM node:8-stretch
+FROM armv7/armhf-debian:jessie
 
 EXPOSE 8080 4443
 
