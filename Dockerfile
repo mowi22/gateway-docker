@@ -1,4 +1,4 @@
-FROM armv7/armhf-debian:jessie
+FROM  aarch64/alpine:edge
 
 EXPOSE 8080 4443
 
