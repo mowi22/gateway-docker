@@ -35,7 +35,7 @@ RUN echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/s
     echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 ARG gateway_url
-ENV gateway_url ${gateway_url:-https://github.com/mozilla-iot/gateway}
+ENV gateway_url ${gateway_url:-https://github.com/mowi22/gateway}
 ARG gateway_branch
 ENV gateway_branch ${gateway_branch:-master}
 
