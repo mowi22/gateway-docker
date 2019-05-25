@@ -1,4 +1,4 @@
-FROM  aarch64/alpine:edge
+FROM node:8.16-stretch-slim 
 
 EXPOSE 8080 4443
 
