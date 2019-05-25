@@ -1,7 +1,6 @@
 FROM mozillaiot/gateway:arm
 
 EXPOSE 8080 4443
-
 RUN echo "deb http://ftp.debian.org/debian stretch-backports main" >> /etc/apt/sources.list && \
     apt update && \
     apt dist-upgrade -y && \
