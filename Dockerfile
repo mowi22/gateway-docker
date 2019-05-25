@@ -1,4 +1,4 @@
-FROM node:8.16-stretch-slim 
+FROM mozillaiot/gateway:arm
 
 EXPOSE 8080 4443
 
