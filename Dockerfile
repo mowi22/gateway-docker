@@ -1,4 +1,4 @@
-FROM mozillaiot/gateway:arm
+FROM node:8-jessie
 
 EXPOSE 8080 4443
 
